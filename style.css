@@ -1,0 +1,76 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(22, 27, 72, 0.83);
+    height:100vh;
+}
+#container{
+    max-width: 550px;
+    width: 100%;
+    margin: 30px  auto 0px;
+    padding: 12px 25px 50px;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    color: #0dabf3;
+  }
+  .todo-input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    padding-left:  15px;
+  }
+.buttonAdd{
+    height: 40px;
+    width: 70px;
+    background: #0dabf3;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 2px solid #0dabf3;
+    outline: none;
+    cursor: pointer;
+    color: white;
+  }
+  .buttonAdd:hover{
+    background-color: rgba(22, 27, 72, 0.83);
+    border: 1px solid rgba(22, 27, 72, 0.83);
+  }
+  #list-Container{
+    width: 80%;
+  }
+
+  #list-Container li{
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 60px; */
+  }
+  #list-Container button{
+        margin-left: 120px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 2px solid #0dabf3;
+        background-color: #0dabf3;
+        color: white;
+        outline: none;
+      
+  }
