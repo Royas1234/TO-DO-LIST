@@ -6,8 +6,8 @@ const addButton = document.querySelector("#add");
 let todosItem = [ ];
 function addItems(){
       
-        const text = input.value;
-      if ( text !== ""){
+        const text = input.value.trim();
+      if (""){
         todosItem.unshift(text); 
     
         input.value="";
