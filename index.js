@@ -7,7 +7,7 @@ let todosItem = [ ];
 function addItems(){
       
         const text = input.value.trim();
-      if (""){
+      if (text){
         todosItem.unshift(text); 
     
         input.value="";
