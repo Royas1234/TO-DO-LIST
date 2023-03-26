@@ -13,12 +13,13 @@ function addItems(){
         input.value="";
       input.setAttribute( "placeholder", "Add new task...")
       localStorage.setItem("myTodoItem", JSON.stringify(todosItem));
+      displayItem(text);
     
       } else{
         alert("You need to enter your task")
       }
        
-      displayItem(text);
+
         console.log(todosItem);
    
 }
